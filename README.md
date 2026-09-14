@@ -23,10 +23,10 @@
 
 ## Featured Projects
 
-- **FraudIntel AI** — AI-focused fraud detection and cybersecurity intelligence research.
-- **Cholo The Ride** — Motorcycle-focused Android application built with Kotlin, MVVM and StateFlow.
-- **LearnHub LMS** — ASP.NET Core MVC learning management system with authentication and RBAC.
-- **Virtual SOC & Home Lab** — Security monitoring, alerting, packet analysis and incident-response practice environment.
+- **FraudIntel AI** — AI-focused fraud detection and cybersecurity intelligence research. https://beyondbangla-droid.github.io/fraudintel-ai.html
+- **Cholo The Ride** — Motorcycle-focused Android application built with Kotlin, MVVM and StateFlow. https://beyondbangla-droid.github.io/cholo-the-ride.html
+- **LearnHub LMS** — ASP.NET Core MVC learning management system with authentication and RBAC. https://beyondbangla-droid.github.io/learnhub-lms.html
+- **Virtual SOC & Home Lab** — Security monitoring, alerting, packet analysis and incident-response practice environment. https://beyondbangla-droid.github.io/virtual-soc.html
 
 ## About
 
