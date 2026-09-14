@@ -25,7 +25,6 @@
 
 - **FraudIntel AI** — AI-focused fraud detection and cybersecurity intelligence research.
 - **Cholo The Ride** — Motorcycle-focused Android application built with Kotlin, MVVM and StateFlow.
-- **MotoSense AI** — Conceptual AI and motorcycle technology architecture.
 - **LearnHub LMS** — ASP.NET Core MVC learning management system with authentication and RBAC.
 - **Virtual SOC & Home Lab** — Security monitoring, alerting, packet analysis and incident-response practice environment.
 
