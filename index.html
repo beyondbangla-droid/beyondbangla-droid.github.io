@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sudipta Sikder — Cybersecurity Undergraduate | SOC, Networking & Systems Development. Portfolio, projects, skills and contact information.">
+    <meta name="keywords" content="Sudipta Sikder, cybersecurity, SOC, threat detection, networking, systems development, APU, Malaysia">
+    <meta name="author" content="Sudipta Sikder">
+    <title>Sudipta Sikder | root@portfolio:~#</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        body { font-family: Arial, Helvetica, sans-serif; background: #080b10; color: #e8eef5; line-height: 1.6; }
+        a { color: inherit; text-decoration: none; }
+        .container { width: min(1120px, 92%); margin: auto; }
+        header { position: sticky; top: 0; z-index: 20; background: rgba(8,11,16,.94); border-bottom: 1px solid #1d2732; backdrop-filter: blur(10px); }
+        nav { min-height: 68px; display: flex; align-items: center; justify-content: space-between; }
+        .brand { font-weight: 800; letter-spacing: .5px; }
+        .brand span { color: #58d68d; }
+        nav ul { display: flex; list-style: none; gap: 26px; }
+        nav a { color: #aeb9c6; font-size: .95rem; }
+        nav a:hover { color: #58d68d; }
+        .hero { min-height: 82vh; display: grid; place-items: center; padding: 80px 0; }
+        .hero-grid { display: grid; grid-template-columns: 1.35fr .65fr; gap: 55px; align-items: center; }
+        .terminal { color: #58d68d; font-family: Consolas, monospace; margin-bottom: 18px; }
+        h1 { font-size: clamp(2.5rem, 6vw, 5.4rem); line-height: .98; margin-bottom: 22px; }
+        h1 span { color: #58d68d; }
+        .lead { max-width: 720px; color: #aeb9c6; font-size: 1.12rem; }
+        .buttons { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 30px; }
+        .btn { padding: 12px 18px; border: 1px solid #2b3948; border-radius: 8px; background: #10161d; font-weight: 700; }
+        .btn.primary { background: #58d68d; color: #07100b; border-color: #58d68d; }
+        .btn:hover { transform: translateY(-1px); }
+        .code-card { border: 1px solid #263341; border-radius: 14px; background: #0d1218; padding: 22px; box-shadow: 0 18px 60px rgba(0,0,0,.25); font-family: Consolas, monospace; color: #b9c5d2; }
+        .code-card .green { color: #58d68d; }
+        section { padding: 90px 0; border-top: 1px solid #151e27; }
+        .section-title { font-size: 2rem; margin-bottom: 12px; }
+        .section-subtitle { color: #8794a3; margin-bottom: 34px; }
+        .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+        .card { background: #0d1218; border: 1px solid #202c38; border-radius: 14px; padding: 25px; }
+        .card h3 { margin-bottom: 9px; }
+        .card p { color: #9eabb9; }
+        .tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 17px; }
+        .tag { border: 1px solid #293746; border-radius: 999px; padding: 5px 10px; color: #b9c5d2; font-size: .82rem; }
+        .skills { display: grid; grid-template-columns: repeat(4,1fr); gap: 18px; }
+        .skill-card h3 { color: #58d68d; margin-bottom: 12px; }
+        .skill-card p { color: #a4afbc; }
+        .contact { display: grid; grid-template-columns: 1fr 1fr; gap: 25px; }
+        .contact-list { display: grid; gap: 12px; }
+        .contact-item { padding: 15px 18px; border: 1px solid #202c38; border-radius: 10px; background: #0d1218; }
+        form { display: grid; gap: 12px; }
+        input, textarea { width: 100%; background: #0a0f14; border: 1px solid #273443; color: #e8eef5; border-radius: 8px; padding: 13px; font: inherit; }
+        textarea { min-height: 140px; resize: vertical; }
+        footer { padding: 35px 0; color: #718092; text-align: center; border-top: 1px solid #151e27; }
+        @media(max-width: 800px){ nav ul{display:none}.hero-grid,.contact{grid-template-columns:1fr}.skills{grid-template-columns:1fr 1fr}.grid{grid-template-columns:1fr} }
+        @media(max-width:500px){ .skills{grid-template-columns:1fr} }
+    </style>
+</head>
+<body>
+<header><div class="container"><nav><a class="brand" href="#top"><span>root@</span>sudipta:~#</a><ul><li><a href="#about">About</a></li><li><a href="#skills">Skills</a></li><li><a href="#projects">Projects</a></li><li><a href="#contact">Contact</a></li></ul></nav></div></header>
+<main id="top">
+<section class="hero"><div class="container hero-grid"><div><div class="terminal">$ whoami</div><h1>Sudipta <span>Sikder</span></h1><p class="lead">Cybersecurity Undergraduate | SOC, Networking &amp; Systems Development</p><p class="lead" style="margin-top:16px">I work at the intersection of cybersecurity, AI, mobile app development and intelligent systems — building practical projects while developing hands-on skills in threat detection, networking and secure systems.</p><div class="buttons"><a class="btn primary" href="#projects">View Projects</a><a class="btn" href="Sudipta_Sikder_CV.pdf" target="_blank" rel="noopener">View CV</a></div></div><div class="code-card"><div><span class="green">$</span> cat profile.txt</div><br><div>Cybersecurity Undergraduate</div><div>SOC &amp; Threat Detection</div><div>Networking &amp; Systems</div><div>AI + Mobile Development</div><br><div><span class="green">status:</span> building</div></div></div></section>
+<section id="about"><div class="container"><h2 class="section-title">About Me</h2><p class="section-subtitle">Security-minded. Curious. Hands-on.</p><div class="card"><p>I am a B.Sc. (Hons) Cybersecurity undergraduate at Asia Pacific University, focused on practical security operations, networking, threat detection and systems development. I build projects to turn concepts into working systems and use virtual labs and CTF challenges to strengthen investigative and defensive skills.</p></div></div></section>
+<section id="skills"><div class="container"><h2 class="section-title">Skills</h2><p class="section-subtitle">Technologies and areas I work with.</p><div class="skills"><div class="card skill-card"><h3>Security &amp; SOC</h3><p>Threat Detection, Incident Response, Vulnerability Assessment, SOC Operations, Network Defence, Nmap, Wireshark, Metasploit, Burp Suite, MobSF</p></div><div class="card skill-card"><h3>Networking</h3><p>OSPF, VLAN, Cisco Packet Tracer, Network Analysis, Postfix, SMTP, TLS/SSL, Firewall Hardening</p></div><div class="card skill-card"><h3>Programming</h3><p>Python, Kotlin Android, Java/JavaFX, C#/ASP.NET Core, SQL Server, C++, HTML5/CSS3, MVVM/StateFlow</p></div><div class="card skill-card"><h3>Systems</h3><p>Linux, Kali Linux, Rocky Linux, Termux, Windows, Android, technical documentation and reporting</p></div></div></div></section>
+<section id="projects"><div class="container"><h2 class="section-title">Projects</h2><p class="section-subtitle">Selected security, software and intelligent-system work.</p><div class="grid"><article class="card"><h3>FraudIntel AI</h3><p>AI-focused cybersecurity project exploring fraud detection and intelligence mapping using zero-cost technologies and anomaly patterns in structured datasets.</p><div class="tags"><span class="tag">AI</span><span class="tag">Cybersecurity</span><span class="tag">Fraud Detection</span></div></article><article class="card"><h3>Cholo The Ride</h3><p>Native motorcycle-focused ride-sharing and utility application built with Kotlin, MVVM and StateFlow, including live GPS and speed monitoring. Development is ongoing.</p><div class="tags"><span class="tag">Kotlin</span><span class="tag">Android</span><span class="tag">GPS</span></div></article><article class="card"><h3>MotoSense AI</h3><p>Conceptual advanced AI and motorcycle technology architecture focused on sensor-data analysis and predictive safety models.</p><div class="tags"><span class="tag">AI</span><span class="tag">IoT</span><span class="tag">Safety</span></div></article><article class="card"><h3>LearnHub LMS</h3><p>ASP.NET Core MVC learning management system using MVC, ADO.NET and SQL Server, with BCrypt authentication, cookies and role-based access control.</p><div class="tags"><span class="tag">ASP.NET Core</span><span class="tag">SQL Server</span><span class="tag">RBAC</span></div></article><article class="card"><h3>Virtual SOC &amp; Home Lab</h3><p>Personalized virtual SOC environment with simulated network traffic, automated threat-detection alerts and incident-response playbooks for simulated data exfiltration and malware beaconing.</p><div class="tags"><span class="tag">SIEM</span><span class="tag">Alerting</span><span class="tag">Packet Analysis</span></div></article><article class="card"><h3>CTF Challenges</h3><p>Hands-on Capture The Flag experience covering cryptography, network analysis and digital forensics.</p><div class="tags"><span class="tag">Cryptography</span><span class="tag">Forensics</span><span class="tag">Networking</span></div></article></div></div></section>
+<section id="contact"><div class="container"><h2 class="section-title">Contact</h2><p class="section-subtitle">Let’s connect.</p><div class="contact"><div class="contact-list"><div class="contact-item"><strong>Location</strong><br>Bukit Jalil, Kuala Lumpur, Malaysia</div><div class="contact-item"><strong>Email</strong><br><a href="mailto:sikdersudipta6@gmail.com">sikdersudipta6@gmail.com</a></div><div class="contact-item"><strong>GitHub</strong><br><a href="https://github.com/beyondbangla-droid" target="_blank" rel="noopener">github.com/beyondbangla-droid</a></div><div class="contact-item"><strong>LinkedIn</strong><br>LinkedIn profile coming soon</div></div><div class="card"><form id="contactForm"><input name="name" placeholder="Your name" required><input type="email" name="email" placeholder="Your email" required><textarea name="message" placeholder="Your message" required></textarea><button class="btn primary" type="submit">Send Message</button><p id="formStatus" style="color:#58d68d"></p></form></div></div></div></section>
+</main><footer><div class="container">© 2026 Sudipta Sikder. Built for the web.</div></footer>
+<script>document.getElementById('contactForm').addEventListener('submit',function(e){e.preventDefault();document.getElementById('formStatus').textContent='Thanks — the form is currently a demo and does not send email yet.';this.reset();});</script>
+</body></html>
